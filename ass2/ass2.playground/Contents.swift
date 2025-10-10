@@ -1,6 +1,6 @@
 // Problem 1: FizzBuzz
 
-/*
+
 for i in 1...100 {
     
     if (i % 3 == 0) && (i % 5 == 0) {
@@ -15,11 +15,11 @@ for i in 1...100 {
     
     
 }
-*/
+
 
 // Problem 2: Prime Numbers
 
-/*
+
  func isPrime(_ number: Int) -> Bool {
  
  if number <= 1 {
@@ -39,7 +39,7 @@ for i in 1...100 {
  print(n)
  }
  }
- */
+ 
 
 // Problem 3: Temperature Converter
 
@@ -112,15 +112,16 @@ temperature(20, "c")
 
 // Problem 4: Shopping List Manager
 
-/*
-var shoppingList: [String] = [] //create an empty array
 
-@MainActor func addItem (_ item: String) { //function that add items
+ //create an empty array
+
+func addItem (_ item: String) { //function that add items
+    var shoppingList: [String] = []
     shoppingList.append(item)
     print ("Item was added")
 }
 
-@MainActor func removeItem (_ item: String){ //function that delete the items
+func removeItem (_ item: String){ //function that delete the items
     if let index = shoppingList.firstIndex(of: item) {
         shoppingList.remove(at: index)
         print("Item was deleted")
@@ -130,7 +131,7 @@ var shoppingList: [String] = [] //create an empty array
     }
 }
 
-@MainActor func ShowList () { //function that show shopping list with enumerated function
+func ShowList () { //function that show shopping list with enumerated function
     if shoppingList.isEmpty{
         print("Your list is empty")
     }
@@ -146,7 +147,7 @@ addItem("Bread")
 addItem("Milk")
 removeItem("Bread")
 ShowList()
-*/
+
 
 // Problem 5: Word Frequency Counter
 
@@ -198,10 +199,9 @@ func fibonacci(_ n: Int) -> [Int] {
         return [0, 1]
     }
     
-    // Create an array with the first two numbers
     var sequence = [0, 1]
     
-    // Loop to calculate the rest
+    
     for i in 2..<n {
         let next = sequence[i - 1] + sequence[i - 2]
         sequence.append(next)
@@ -288,7 +288,7 @@ if isPalindrome(sentence) {
 
 // Problem 9: Simple Calculator
 
-
+/*
 func add(_ a: Double, _ b: Double) -> Double {
     return a + b
 }
@@ -307,6 +307,9 @@ func divide(_ a: Double, _ b: Double) -> Double? {
     }
     return a / b
 }
+ */
+
+
 // Calculator function
 
 /*
