@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RandomizerApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="440" height="956"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="max verstappen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PuD-Eq-mD8">
+                                <rect key="frame" x="1" y="413" width="438" height="76"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="PuD-Eq-mD8" secondAttribute="height" multiplier="121:21" id="nAd-5P-AhE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="G7h-1i-iJX">
+                                <rect key="frame" x="24" y="184" width="392" height="149"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="G7h-1i-iJX" secondAttribute="height" multiplier="329:125" id="i8h-ig-cxc"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nmf-p7-H8u">
+                                <rect key="frame" x="70" y="892" width="300" height="34"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="Igc-V1-dHT"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Randomize"/>
+                                <connections>
+                                    <action selector="randomizeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3pM-RU-GHs"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="1" green="0.7348408323718878" blue="0.14293134880426439" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="nmf-p7-H8u" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1qg-7S-4ed"/>
+                            <constraint firstAttribute="bottom" secondItem="nmf-p7-H8u" secondAttribute="bottom" constant="30" id="FRh-fa-kza"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PuD-Eq-mD8" secondAttribute="trailing" constant="1" id="W96-qf-3d1"/>
+                            <constraint firstItem="G7h-1i-iJX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="24" id="a5M-7F-b95"/>
+                            <constraint firstItem="G7h-1i-iJX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="cQo-Ml-DO4"/>
+                            <constraint firstItem="PuD-Eq-mD8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="1" id="ntY-i6-JzU"/>
+                            <constraint firstItem="PuD-Eq-mD8" firstAttribute="top" secondItem="G7h-1i-iJX" secondAttribute="bottom" constant="8" symbolic="YES" id="sw0-2R-EHi"/>
+                            <constraint firstItem="PuD-Eq-mD8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tBD-ko-f8p"/>
+                            <constraint firstAttribute="trailing" secondItem="G7h-1i-iJX" secondAttribute="trailing" constant="24" id="vHy-uB-w8l"/>
+                            <constraint firstItem="PuD-Eq-mD8" firstAttribute="top" secondItem="G7h-1i-iJX" secondAttribute="bottom" constant="80" id="w1b-U0-rNE"/>
+                            <constraint firstItem="G7h-1i-iJX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xBi-6v-koP"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="itemImageView" destination="G7h-1i-iJX" id="dW4-Kx-TrD"/>
+                        <outlet property="itemTitleLabel" destination="PuD-Eq-mD8" id="c3G-1H-zml"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="35.384615384615387" y="2.8436018957345972"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1" width="1316" height="500"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
