@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA8E3D362EBEC84C00FA607C /* T-Killah И Лоя - Вернись.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA8E3D342EBEC84C00FA607C /* T-Killah И Лоя - Вернись.mp3 */; };
+		BA8E3D372EBEC84C00FA607C /* M'Dee - Даже Если Ты Сойдёшь С Ума.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA8E3D312EBEC84C00FA607C /* M'Dee - Даже Если Ты Сойдёшь С Ума.mp3 */; };
+		BA8E3D382EBEC84C00FA607C /* Звонкий - Голоса.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA8E3D2D2EBEC84C00FA607C /* Звонкий - Голоса.mp3 */; };
+		BA8E3D392EBEC84C00FA607C /* Звонкий - Голоса (1).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA8E3D2E2EBEC84C00FA607C /* Звонкий - Голоса (1).mp3 */; };
+		BA8E3D3A2EBEC84C00FA607C /* M'Dee - Нужна.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA8E3D322EBEC84C00FA607C /* M'Dee - Нужна.mp3 */; };
+		BA8E3D3B2EBEC84C00FA607C /* MDee_-_Dazhe_Esli_Ty_Sojdyosh_S_Uma_(SkySound.cc).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA8E3D332EBEC84C00FA607C /* MDee_-_Dazhe_Esli_Ty_Sojdyosh_S_Uma_(SkySound.cc).mp3 */; };
+		BA8E3D3C2EBEC84C00FA607C /* Zvonkij_-_Golosa_(SkySound.cc).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA8E3D352EBEC84C00FA607C /* Zvonkij_-_Golosa_(SkySound.cc).mp3 */; };
+		BA8E3D3D2EBEC84C00FA607C /* Bonapart_MEREY_-_ozy_K_rpesh_-_Bayan_S_lu_(SkySound.cc).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA8E3D2F2EBEC84C00FA607C /* Bonapart_MEREY_-_ozy_K_rpesh_-_Bayan_S_lu_(SkySound.cc).mp3 */; };
+		BA8E3D3E2EBEC84C00FA607C /* M_Dee_-_Dazhe_Esli_Ty_Sojdyosh_S_Uma_New_Russian_Music_(SkySound.cc).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA8E3D302EBEC84C00FA607C /* M_Dee_-_Dazhe_Esli_Ty_Sojdyosh_S_Uma_New_Russian_Music_(SkySound.cc).mp3 */; };
+		BA8E3D402EBEC88800FA607C /* Kel_Kel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA8E3D3F2EBEC88800FA607C /* Kel_Kel.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA8E3D0B2EBEA9C800FA607C /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8E3D2D2EBEC84C00FA607C /* Звонкий - Голоса.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Звонкий - Голоса.mp3"; sourceTree = "<group>"; };
+		BA8E3D2E2EBEC84C00FA607C /* Звонкий - Голоса (1).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Звонкий - Голоса (1).mp3"; sourceTree = "<group>"; };
+		BA8E3D2F2EBEC84C00FA607C /* Bonapart_MEREY_-_ozy_K_rpesh_-_Bayan_S_lu_(SkySound.cc).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bonapart_MEREY_-_ozy_K_rpesh_-_Bayan_S_lu_(SkySound.cc).mp3"; sourceTree = "<group>"; };
+		BA8E3D302EBEC84C00FA607C /* M_Dee_-_Dazhe_Esli_Ty_Sojdyosh_S_Uma_New_Russian_Music_(SkySound.cc).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "M_Dee_-_Dazhe_Esli_Ty_Sojdyosh_S_Uma_New_Russian_Music_(SkySound.cc).mp3"; sourceTree = "<group>"; };
+		BA8E3D312EBEC84C00FA607C /* M'Dee - Даже Если Ты Сойдёшь С Ума.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "M'Dee - Даже Если Ты Сойдёшь С Ума.mp3"; sourceTree = "<group>"; };
+		BA8E3D322EBEC84C00FA607C /* M'Dee - Нужна.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "M'Dee - Нужна.mp3"; sourceTree = "<group>"; };
+		BA8E3D332EBEC84C00FA607C /* MDee_-_Dazhe_Esli_Ty_Sojdyosh_S_Uma_(SkySound.cc).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "MDee_-_Dazhe_Esli_Ty_Sojdyosh_S_Uma_(SkySound.cc).mp3"; sourceTree = "<group>"; };
+		BA8E3D342EBEC84C00FA607C /* T-Killah И Лоя - Вернись.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "T-Killah И Лоя - Вернись.mp3"; sourceTree = "<group>"; };
+		BA8E3D352EBEC84C00FA607C /* Zvonkij_-_Golosa_(SkySound.cc).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Zvonkij_-_Golosa_(SkySound.cc).mp3"; sourceTree = "<group>"; };
+		BA8E3D3F2EBEC88800FA607C /* Kel_Kel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Kel_Kel.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BA8E3D1D2EBEA9CB00FA607C /* Exceptions for "MusicPlayer" folder in "MusicPlayer" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = BA8E3D0A2EBEA9C800FA607C /* MusicPlayer */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BA8E3D0D2EBEA9C800FA607C /* MusicPlayer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BA8E3D1D2EBEA9CB00FA607C /* Exceptions for "MusicPlayer" folder in "MusicPlayer" target */,
+			);
+			path = MusicPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA8E3D082EBEA9C800FA607C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA8E3D022EBEA9C800FA607C = {
+			isa = PBXGroup;
+			children = (
+				BA8E3D0D2EBEA9C800FA607C /* MusicPlayer */,
+				BA8E3D0C2EBEA9C800FA607C /* Products */,
+				BA8E3D2D2EBEC84C00FA607C /* Звонкий - Голоса.mp3 */,
+				BA8E3D2E2EBEC84C00FA607C /* Звонкий - Голоса (1).mp3 */,
+				BA8E3D2F2EBEC84C00FA607C /* Bonapart_MEREY_-_ozy_K_rpesh_-_Bayan_S_lu_(SkySound.cc).mp3 */,
+				BA8E3D302EBEC84C00FA607C /* M_Dee_-_Dazhe_Esli_Ty_Sojdyosh_S_Uma_New_Russian_Music_(SkySound.cc).mp3 */,
+				BA8E3D312EBEC84C00FA607C /* M'Dee - Даже Если Ты Сойдёшь С Ума.mp3 */,
+				BA8E3D322EBEC84C00FA607C /* M'Dee - Нужна.mp3 */,
+				BA8E3D332EBEC84C00FA607C /* MDee_-_Dazhe_Esli_Ty_Sojdyosh_S_Uma_(SkySound.cc).mp3 */,
+				BA8E3D342EBEC84C00FA607C /* T-Killah И Лоя - Вернись.mp3 */,
+				BA8E3D352EBEC84C00FA607C /* Zvonkij_-_Golosa_(SkySound.cc).mp3 */,
+				BA8E3D3F2EBEC88800FA607C /* Kel_Kel.mp3 */,
+			);
+			sourceTree = "<group>";
+		};
+		BA8E3D0C2EBEA9C800FA607C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA8E3D0B2EBEA9C800FA607C /* MusicPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA8E3D0A2EBEA9C800FA607C /* MusicPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA8E3D1E2EBEA9CB00FA607C /* Build configuration list for PBXNativeTarget "MusicPlayer" */;
+			buildPhases = (
+				BA8E3D072EBEA9C800FA607C /* Sources */,
+				BA8E3D082EBEA9C800FA607C /* Frameworks */,
+				BA8E3D092EBEA9C800FA607C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BA8E3D0D2EBEA9C800FA607C /* MusicPlayer */,
+			);
+			name = MusicPlayer;
+			packageProductDependencies = (
+			);
+			productName = MusicPlayer;
+			productReference = BA8E3D0B2EBEA9C800FA607C /* MusicPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA8E3D032EBEA9C800FA607C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					BA8E3D0A2EBEA9C800FA607C = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = BA8E3D062EBEA9C800FA607C /* Build configuration list for PBXProject "MusicPlayer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA8E3D022EBEA9C800FA607C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BA8E3D0C2EBEA9C800FA607C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA8E3D0A2EBEA9C800FA607C /* MusicPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA8E3D092EBEA9C800FA607C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8E3D362EBEC84C00FA607C /* T-Killah И Лоя - Вернись.mp3 in Resources */,
+				BA8E3D402EBEC88800FA607C /* Kel_Kel.mp3 in Resources */,
+				BA8E3D372EBEC84C00FA607C /* M'Dee - Даже Если Ты Сойдёшь С Ума.mp3 in Resources */,
+				BA8E3D382EBEC84C00FA607C /* Звонкий - Голоса.mp3 in Resources */,
+				BA8E3D392EBEC84C00FA607C /* Звонкий - Голоса (1).mp3 in Resources */,
+				BA8E3D3A2EBEC84C00FA607C /* M'Dee - Нужна.mp3 in Resources */,
+				BA8E3D3B2EBEC84C00FA607C /* MDee_-_Dazhe_Esli_Ty_Sojdyosh_S_Uma_(SkySound.cc).mp3 in Resources */,
+				BA8E3D3C2EBEC84C00FA607C /* Zvonkij_-_Golosa_(SkySound.cc).mp3 in Resources */,
+				BA8E3D3D2EBEC84C00FA607C /* Bonapart_MEREY_-_ozy_K_rpesh_-_Bayan_S_lu_(SkySound.cc).mp3 in Resources */,
+				BA8E3D3E2EBEC84C00FA607C /* M_Dee_-_Dazhe_Esli_Ty_Sojdyosh_S_Uma_New_Russian_Music_(SkySound.cc).mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA8E3D072EBEA9C800FA607C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BA8E3D1F2EBEA9CB00FA607C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MusicPlayer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.MusicPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA8E3D202EBEA9CB00FA607C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MusicPlayer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.MusicPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA8E3D212EBEA9CB00FA607C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA8E3D222EBEA9CB00FA607C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA8E3D062EBEA9C800FA607C /* Build configuration list for PBXProject "MusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8E3D212EBEA9CB00FA607C /* Debug */,
+				BA8E3D222EBEA9CB00FA607C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA8E3D1E2EBEA9CB00FA607C /* Build configuration list for PBXNativeTarget "MusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8E3D1F2EBEA9CB00FA607C /* Debug */,
+				BA8E3D202EBEA9CB00FA607C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA8E3D032EBEA9C800FA607C /* Project object */;
+}
