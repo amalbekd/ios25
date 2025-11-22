@@ -16,7 +16,7 @@
 		BA8E3D3C2EBEC84C00FA607C /* Zvonkij_-_Golosa_(SkySound.cc).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA8E3D352EBEC84C00FA607C /* Zvonkij_-_Golosa_(SkySound.cc).mp3 */; };
 		BA8E3D3D2EBEC84C00FA607C /* Bonapart_MEREY_-_ozy_K_rpesh_-_Bayan_S_lu_(SkySound.cc).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA8E3D2F2EBEC84C00FA607C /* Bonapart_MEREY_-_ozy_K_rpesh_-_Bayan_S_lu_(SkySound.cc).mp3 */; };
 		BA8E3D3E2EBEC84C00FA607C /* M_Dee_-_Dazhe_Esli_Ty_Sojdyosh_S_Uma_New_Russian_Music_(SkySound.cc).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA8E3D302EBEC84C00FA607C /* M_Dee_-_Dazhe_Esli_Ty_Sojdyosh_S_Uma_New_Russian_Music_(SkySound.cc).mp3 */; };
-		BA8E3D402EBEC88800FA607C /* Kel_Kel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA8E3D3F2EBEC88800FA607C /* Kel_Kel.mp3 */; };
+		BADB62382EC7D9D0002AFF82 /* Kel_Kel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BADB62372EC7D9D0002AFF82 /* Kel_Kel.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +30,7 @@
 		BA8E3D332EBEC84C00FA607C /* MDee_-_Dazhe_Esli_Ty_Sojdyosh_S_Uma_(SkySound.cc).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "MDee_-_Dazhe_Esli_Ty_Sojdyosh_S_Uma_(SkySound.cc).mp3"; sourceTree = "<group>"; };
 		BA8E3D342EBEC84C00FA607C /* T-Killah И Лоя - Вернись.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "T-Killah И Лоя - Вернись.mp3"; sourceTree = "<group>"; };
 		BA8E3D352EBEC84C00FA607C /* Zvonkij_-_Golosa_(SkySound.cc).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Zvonkij_-_Golosa_(SkySound.cc).mp3"; sourceTree = "<group>"; };
-		BA8E3D3F2EBEC88800FA607C /* Kel_Kel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Kel_Kel.mp3; sourceTree = "<group>"; };
+		BADB62372EC7D9D0002AFF82 /* Kel_Kel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Kel_Kel.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -79,7 +79,7 @@
 				BA8E3D332EBEC84C00FA607C /* MDee_-_Dazhe_Esli_Ty_Sojdyosh_S_Uma_(SkySound.cc).mp3 */,
 				BA8E3D342EBEC84C00FA607C /* T-Killah И Лоя - Вернись.mp3 */,
 				BA8E3D352EBEC84C00FA607C /* Zvonkij_-_Golosa_(SkySound.cc).mp3 */,
-				BA8E3D3F2EBEC88800FA607C /* Kel_Kel.mp3 */,
+				BADB62372EC7D9D0002AFF82 /* Kel_Kel.mp3 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -156,7 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA8E3D362EBEC84C00FA607C /* T-Killah И Лоя - Вернись.mp3 in Resources */,
-				BA8E3D402EBEC88800FA607C /* Kel_Kel.mp3 in Resources */,
+				BADB62382EC7D9D0002AFF82 /* Kel_Kel.mp3 in Resources */,
 				BA8E3D372EBEC84C00FA607C /* M'Dee - Даже Если Ты Сойдёшь С Ума.mp3 in Resources */,
 				BA8E3D382EBEC84C00FA607C /* Звонкий - Голоса.mp3 in Resources */,
 				BA8E3D392EBEC84C00FA607C /* Звонкий - Голоса (1).mp3 in Resources */,
